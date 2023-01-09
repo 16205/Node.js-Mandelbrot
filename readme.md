@@ -31,7 +31,7 @@ Here is what a HTTP GET request to the backend looks like:
 ```
 GET /mandelbrot?x=<x coordinate>&y=<y coordinate>&zoom=<zoom level>&size=<image size>
 ```
-The x and y parameters specify the center point of the Mandelbrot set being rendered. The zoom parameter specifies the zoom level, with higher values corresponding to more zoomed in images. The size parameter specifies the size of the image in pixels.
+The **x** and **y** parameters specify the center point of the Mandelbrot set being rendered. The **zoom** parameter specifies the zoom level, with higher values corresponding to more zoomed in images. The **size** parameter specifies the size of the image in pixels.
 
 #### HTTP Response
 The backend responds with an HTTP response of type text/event-stream containing the image data. The image data is sent in chunks, with each chunk containing a chunk of the image data.
