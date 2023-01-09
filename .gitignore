@@ -59,4 +59,8 @@ typings/
 
 /.vscode
 
+package-lock.json
+
+server.js
+
 
