@@ -1,6 +1,6 @@
 const cluster = require('cluster');
 // const numCPUs = require('os').cpus().length;
-const numCPUs = 2;
+const numCPUs = 4;
 
 if (cluster.isMaster) {
     console.log(`Master ${process.pid} is running`);
